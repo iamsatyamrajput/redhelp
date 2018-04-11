@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.satyam.redhelp.AboutUs"
+    android:background="#ffffff">
+<ImageButton
+    android:layout_height="100dp"
+    android:layout_width="120dp"
+    android:foregroundGravity="center"
+    android:id="@+id/aboutlogo"
+    android:background="@drawable/logo_color"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="10dp"
+    android:layout_centerHorizontal="true">
+    </ImageButton>
+    <TextView
+        android:id="@+id/tvredhelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RedHelp"
+        android:layout_below="@+id/aboutlogo"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+    <ScrollView android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:paddingBottom="20sp"
+        android:layout_below="@+id/tvredhelp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/about_us"
+        android:textSize="25dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:textAlignment="center"
+        android:textDirection="firstStrongLtr"
+        android:paddingBottom="20sp"
+
+        android:textColor="@color/colorPrimary"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+        </TextView>T
+    </ScrollView>
+    </RelativeLayout>
+

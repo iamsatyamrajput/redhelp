@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_blood_type_selector"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="#ffffff"
+    tools:context="com.example.satyam.redhelp.BloodTypeSelector">
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please! Select your blood group"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimary"
+        android:background="#ffffff"
+        android:gravity="center"/>
+    <GridView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/grid_view_blood_group"
+        android:layout_below="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:numColumns="2"
+        android:gravity="center"
+        android:stretchMode="columnWidth"
+
+        android:background="#ffffff"
+        tools:context="com.example.satyam.redhelp.BloodTypeSelector">
+
+    </GridView>
+</RelativeLayout>

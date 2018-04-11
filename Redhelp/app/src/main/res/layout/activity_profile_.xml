@@ -1,0 +1,198 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="outsideOverlay"
+    tools:context="com.example.satyam.redhelp.Profile_Activity"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/profile_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UserName"
+            android:textColor="@color/dark_gray"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/profile_blood_group"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_height="84dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="70dp"
+            android:textStyle="bold"
+            tools:text="--" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+
+            android:layout_marginBottom="40dp"
+            android:background="@color/gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="57dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="15dp"
+                    android:src="@drawable/ic_next_time" />
+
+                <TextView
+                    android:id="@+id/text_current_achievements"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="55px"
+                    android:textStyle="bold"
+                    android:textColor="@color/dark_gray"
+                    tools:text="0" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="21px"
+                    android:textColor="@color/dark_gray"
+                    android:text="@string/days_next_donation" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="69dp"
+                    android:layout_height="61dp"
+                    android:layout_marginBottom="15dp"
+                    android:src="@drawable/ic_achievements" />
+
+                <TextView
+                    android:id="@+id/donated_blood"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="55px"
+                    android:textColor="@color/dark_gray"
+                    android:textStyle="bold"
+                    tools:text="0" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="21px"
+                    android:textColor="@color/dark_gray"
+                    android:text="DONATED   BLOOD"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="57dp"
+                    android:layout_height="62dp"
+                    android:layout_marginBottom="15dp"
+                    android:src="@drawable/ic_tickets"
+                    android:id="@+id/imageView" />
+
+                <TextView
+                    android:id="@+id/free_ticket"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="55px"
+                    android:textColor="@color/dark_gray"
+                    android:textStyle="bold"
+                    tools:text="0" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="21px"
+                    android:textColor="@color/dark_gray"
+                    android:text="@string/liters_to_free_ticket" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+                                        android:layout_marginTop="35sp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:weightSum="3">
+                                        <TextView
+                                            android:id="@+id/profile_email"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="e-mail"
+
+                                            android:textColor="@color/colorPrimary"
+                                            android:textSize="20dp"
+                                            android:gravity="center"
+                                            />
+            <TextView
+                android:id="@+id/profile_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.05"
+                android:gravity="center"
+                android:text="phone"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:layout_below="@+id/profile_email" />
+
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:weightSum="4">
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "32301471988",
+    "firebase_url": "https://redhelp-f9487.firebaseio.com",
+    "project_id": "redhelp-f9487",
+    "storage_bucket": "redhelp-f9487.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32301471988:android:4ccf33bd4c13f57a",
+        "android_client_info": {
+          "package_name": "com.example.satyam.redhelp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32301471988-q18n1gcbdpvigbgf7k6fb0u747q7mc0l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZw5PaXYsg0gKrCSmtoe6Ws13HJwr4lpY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
